@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
     <title>Tobies Kraft</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
 </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" >
+              <a class="navbar-brand" href="./index.html" >
                 <img src="./assets/img/logo.png" alt="" id="logo-img">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -21,24 +25,24 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center" id="nav-items" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">hot deals</a>
+                    <a class="nav-link" href="#hot">hot deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">pastries</a>
+                    <a class="nav-link" href="#pastries">pastries</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       contact us
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Email</a></li>
-                      <li><a class="dropdown-item" href="#">Tel no</a></li>
+                      <li><a class="dropdown-item" href="mailto:godsfavour1975@gmail.com">Email</a></li>
+                      <li><a class="dropdown-item" href="tel:+23409033886421">Tel no</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -66,7 +70,7 @@
                 <img src="./assets/img/cake-g41175eeac_1920-removebg-preview.png" alt="" class="home-img">
               </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
               <h2 style="color: orange;" class="about-name">About us</h2>
               <div class="brand-motto">Come taste the difference</div>
               <p class="info">
@@ -89,13 +93,110 @@
                 <img src="./assets/img/20220718_114144.jpg" alt="">
               </div>
             </section>
-            <section class="Hot-deals">
+            <section class="Hot-deals" id="hot">
               <h2 style="color: orange;" class="hot">Hot deals</h2>
-              <h1 class="sub-head">today only</h1>
-              <div class="image-cards">
-                
+              <div class="main-flex">
+                <div class="today-special">
+                  <h2>Today Special</h2>
+                  <p>Just for today only get your favourite snacks at an affordable price</p>
+                  <div class="main-cards">
+                    <div class="image-container">
+                      <img src="./assets/img/eggroll.jpg" alt="">
+                      <div class="description">
+                        <div class="name">Name: Eggroll</div>
+                        <div class="price">Price: $20</div>
+                      </div>
+                      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                    </div>
+                    <div class="image-container">
+                      <img src="./assets/img/eggroll.jpg" alt="">
+                      <div class="description">
+                        <div class="name">Name: Meatpie</div>
+                        <div class="price">Price: $20</div>
+                      </div>                    </div>
+                  </div>
+                </div>
+                <div class="recommend">
+                  <h2>We Recommend</h2>
+                  <p>We recommend this just for today
+                   only get your favourite snacks at an affordable price</p>
+                  <div class="main-cards">
+                    <div class="image-container">
+                      <img src="./assets/img/eggroll.jpg" alt="">
+                      <div class="description">
+                        <div class="name">Name: sausage</div>
+                        <div class="price">Price: $20</div>
+                      </div>                    </div>
+                    <div class="image-container">
+                      <img src="./assets/img/eggroll.jpg" alt="">
+                      <div class="description">
+                        <div class="name">Name: Bread</div>
+                        <div class="price">Price: $20</div>
+                      </div>                    </div>
+                  </div>
+                </div>
               </div>
             </section>
+            <section class="pastries" id="pastries">
+              <h1>Our Pastries</h1>
+              <div style="color: #fff; padding-left:2rem; font-size: 2rem;">Categories</div>
+              <div class="discover-flex">
+                <div class="cardi">
+                  <img src="./assets/img/eggroll.jpg" alt="">
+                  <div class="description">Pastries</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/20220718_114144.jpg" alt="">
+                  <div class="description">Sausages</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/eggroll.jpg" alt="">
+                  <div class="description">Small Chops</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/20220718_114144.jpg" alt="">
+                  <div class="description">Eggrolls</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/eggroll.jpg" alt="">
+                  <div class="description">Chin-chins</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/20220718_114144.jpg" alt="">
+                  <div class="description">Take away pack</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/eggroll.jpg" alt="">
+                  <div class="description">Meat Pies</div>
+                </div>
+                <div class="cardi">
+                  <img src="./assets/img/20220718_114144.jpg" alt="">
+                  <div class="description">Local Dish</div>
+                </div>
+              </div>
+            </section>
+            <div class="container">
+              <section class="d-flex flex-column justify-content-center align-items-center pt-5">
+                <h1 class="text-light py-2">Place Your order Now !!!</h1>
+                <a href="tel:+23409033886421" class="contact"><button>Contact us</button></a>
+              </section>
+            </div>
+            <div class="container">
+              <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                  <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                  </a>
+                  <span class="mb-3 mb-md-0 text-light">&copy; 2022 Tobies Kraft, plc</span>
+                </div>
+            
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                  <li class="ms-3" ><a class="text-muted" href="#"><i class="fa-brands fa-twitter fa-2x" id="icon"></i></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook fa-2x" id="icon"></i></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram fa-2x" id="icon"></i></a></li>
+                </ul>
+              </footer>
+            </div>
           </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>          
 </body>
