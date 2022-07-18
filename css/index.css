@@ -67,3 +67,37 @@ body{
     border-radius: 5px;
 
 }
+.about-name{
+    font-family: phantom;
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 60px;
+    text-align: center;
+}
+.info{
+    padding:2rem 8rem;
+    text-align: center;
+    color: #dcdcdc;
+}
+.image-cards{
+    padding: 0 8rem;
+    display: flex;
+    width: 100%;
+}
+.image-card{
+    width: 40%;
+    height: auto;
+    padding-top: 3rem;
+}
+.image-card > .image1{
+    width: 60%;
+    height: auto;
+}
+.image-card > .image2{
+    width: 100%;
+    height: auto;
+}
+.image-card > .image3{
+    width: 60%;
+    height: auto;
+}
