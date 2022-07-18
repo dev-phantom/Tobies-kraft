@@ -6,6 +6,10 @@
     font-family: phantom;
     src: url(/assets/fonts/Cookie-Regular.ttf);
 }
+@font-face {
+    font-family: hot;
+    src: url(/assets/fonts/RubikMoonrocks-Regular.ttf);
+}
 body{
     background-color: #2c3e50;
 }
@@ -80,24 +84,27 @@ body{
     color: #dcdcdc;
 }
 .image-cards{
-    padding: 0 8rem;
+    width: 100%;
+    height: max-content;
     display: flex;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
 }
-.image-card{
-    width: 40%;
-    height: auto;
-    padding-top: 3rem;
+.image-cards > img{
+    width: 50%;
+    height: 80vh;
 }
-.image-card > .image1{
-    width: 60%;
-    height: auto;
+.Hot-deals{
+    padding: 2rem 3.5rem;
 }
-.image-card > .image2{
-    width: 100%;
-    height: auto;
+.hot{
+    text-align: center;
+    font-family: hot;
+    font-size: 80px;
+    font-weight: lighter;
 }
-.image-card > .image3{
-    width: 60%;
-    height: auto;
+.sub-head{
+    color: #dcdcdc;
+    font-family: Arial, Helvetica, sans-serif;
 }
