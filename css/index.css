@@ -220,6 +220,9 @@ body{
     align-items: center;
 
  }
+ .carousel-item{
+    height: 32rem !important;
+ }
  .contact > button{
     width: 60%;
     text-decoration: none;
@@ -228,4 +231,10 @@ body{
     height: 3rem;
     outline: none;
     border-radius: 12px;
+ }
+ #myCarousel{
+    display: none;
+ }
+ .category{
+    display: flex;
  }

@@ -54,6 +54,54 @@
             </div>
           </nav>
           <main>
+            <section class="slide-show">
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/eggroll.jpg" alt="Eggroll" class="caro-img">
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>Hot Eggroll</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#">Order Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/cinnamon-rolls-1417494.jpg" alt="Eggroll" class="caro-img">
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>Pancake</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#">Order Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/bananas-g41092d1af_1280.jpg" alt="Eggroll" class="caro-img">
+  
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <h1>Order Now</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#">Order Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            
             <section class="home">
               <div class="first">
                 <h1 class="brand-name">Tobies <span style="color: orange;">kraft</span> pastries</h1>
@@ -61,8 +109,9 @@
                 <div class="sub-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptatem modi ea inventore unde? Minus
                   blanditiis quo vero saepe quae consectetur cum facere distinctio eveniet aperiam similique iusto ipsam aliquam
                   provident, sequi nam accusantium magnam. Minima debitis dicta sit.
+                
                 </div>
-                <button class="explore">Explore our menu</button>
+                <a href="#hot" class="expl"><button class="explore">Explore our menu</button></a>
                 
               </div>
 
@@ -139,7 +188,7 @@
             </section>
             <section class="pastries" id="pastries">
               <h1>Our Pastries</h1>
-              <div style="color: #fff; padding-left:2rem; font-size: 2rem;">Categories</div>
+              <div style="color: #fff; padding-left:2rem; font-size: 2rem;" class="category">Categories</div>
               <div class="discover-flex">
                 <div class="cardi">
                   <img src="./assets/img/eggroll.jpg" alt="">
@@ -198,6 +247,7 @@
               </footer>
             </div>
           </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>          
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
 </html>
